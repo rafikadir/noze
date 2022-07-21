@@ -1,0 +1,560 @@
+@media (max-width: 575px) {
+    //Common CSS
+    h2 {
+        font-size: 35px;
+        line-height: 1.2;
+    }
+    p {
+        font-size: 16px;
+    }
+    
+    //Navbar CSS
+    .main-navbar {
+        .navbar {
+            width: 100%;
+
+            .navbar-nav {
+                margin-top: 15px;
+
+                .nav-item {
+                    .nav-link {
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+
+        .nav-btm {
+            position: fixed;
+            background: #fff;
+            bottom: 0;
+            z-index: 999999;
+            padding: 10px 0px;
+            width: 100%;
+            left: 0;
+            right: 0;
+
+            .theme-btn {
+                button {
+                    font-size: 15px !important;
+                    padding: 10px 15px !important;
+                }
+            }
+        }
+    }
+
+    //Hero CSS
+    .hero-section {
+        height: 100%;
+        padding: 100px 0;
+
+        .hero-text {
+            text-align: center;
+
+            h2 {
+                font-size: 35px;
+                line-height: 1.2;
+            }
+        }
+
+        .theme-btn {
+            display: none;
+        }
+
+        .hero-img {
+            padding-top: 0;
+        }
+    }
+
+    .headline-section {
+        .headline-text {
+            text-align: center;
+            padding: 30px 0;
+        }
+    }
+
+    //Ordinary CSS
+    .ordinary-section {
+        padding: 50px 20px;
+
+        .ordinary-text {
+
+            h2 {
+                margin-bottom: 20px !important;
+            }
+
+            text-align: center;
+        }
+    }
+
+    //Accordian CSS 
+    .ordinary-section {
+        .accordion-item {
+            padding-left: 10px;
+        }
+    }
+
+    //Conquire CSS
+    .conquer-text, .mold-text, .Incredible-text {
+        text-align: center;
+
+        h2 {
+        margin-bottom: 20px !important;
+        }
+    }
+
+    //Mold CSS
+    .mold-section {
+        padding: 50px 0;
+
+        .px-5 {
+            padding: 0 15px !important;
+        }
+    }
+
+    //Matter CSS 
+
+    .matters__inner-wrapper {
+        flex-direction: column;
+
+        .matters__nav-wrapper {
+            width: 100%;
+        }
+        
+        .matters__img-wrapper {
+            width: inherit;
+            max-width: 100%;
+
+            .matters__img-item-wrapper {
+                width: inherit;
+                max-width: 100%;
+
+                h3 {
+                    font-size: 25px;
+                    padding: 0 10px;
+                    line-height: 1;
+                }
+            }
+        }
+    }
+
+    //Function CSS
+    .function-section {
+        padding: 50px 0;
+    }
+
+    //Incredible CSS
+    .incredible-section {
+        .px-100 {
+            padding: 0 20px;
+        }
+    }
+
+    //wonder CSS
+    .wondering-text {
+        margin-top: 30px;
+    }
+    
+
+    //accordian CSS 
+    .faq-section,.specifications-section {
+        .accordion-button {
+            font-size: 14px;
+            line-height: 1;
+        }
+    }
+
+    //waitlist 
+    .waitlist-section {
+        padding: 50px 0;
+    }
+
+    //footer CSS 
+    .footer-area {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .specifications-section h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .modal-dialog {
+        .modal-content {
+            padding: 15px;
+
+            .modal-title {
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    //Common CSS
+    h2 {
+        font-size: 35px;
+        line-height: 1.2;
+    }
+    p {
+        font-size: 16px;
+    }
+    
+    //Navbar CSS
+    .main-navbar {
+        .navbar {
+            width: 100%;
+
+            .navbar-nav {
+                margin-top: 15px;
+
+                .nav-item {
+                    .nav-link {
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+
+        .nav-btm {
+            position: fixed;
+            background: #fff;
+            bottom: 0;
+            z-index: 999999;
+            padding: 10px 0px;
+            width: 100%;
+            left: 0;
+            right: 0;
+
+            .theme-btn {
+                button {
+                    font-size: 15px !important;
+                    padding: 10px 15px !important;
+                }
+            }
+        }
+    }
+
+    //Hero CSS
+    .hero-section {
+        height: 100%;
+        padding: 100px 0;
+
+        .hero-text {
+            text-align: center;
+
+            h2 {
+                font-size: 35px;
+                line-height: 1.2;
+            }
+        }
+
+        .theme-btn {
+            display: none;
+        }
+
+        .hero-img {
+            padding-top: 0;
+        }
+    }
+
+    .headline-section {
+        .headline-text {
+            text-align: center;
+            padding: 30px 0;
+        }
+    }
+
+    //Ordinary CSS
+    .ordinary-section {
+        padding: 50px 20px;
+
+        .ordinary-text {
+
+            h2 {
+                margin-bottom: 20px !important;
+            }
+
+            text-align: center;
+        }
+    }
+
+    //Accordian CSS 
+    .ordinary-section {
+        .accordion-item {
+            padding-left: 10px;
+        }
+    }
+
+    //Conquire CSS
+    .conquer-text, .mold-text, .Incredible-text {
+        text-align: center;
+
+        h2 {
+        margin-bottom: 20px !important;
+        }
+    }
+
+    //Mold CSS
+    .mold-section {
+        padding: 50px 0;
+
+        .px-5 {
+            padding: 0 15px !important;
+        }
+    }
+
+    //Matter CSS 
+
+    .matters__inner-wrapper {
+        flex-direction: column;
+
+        .matters__nav-wrapper {
+            width: 100%;
+        }
+        
+        .matters__img-wrapper {
+            width: inherit;
+            max-width: 100%;
+
+            .matters__img-item-wrapper {
+                width: inherit;
+                max-width: 100%;
+
+                h3 {
+                    font-size: 25px;
+                    padding: 0 10px;
+                    line-height: 1;
+                }
+            }
+        }
+    }
+
+    //Function CSS
+    .function-section {
+        padding: 50px 0;
+    }
+
+    //Incredible CSS
+    .incredible-section {
+        .px-100 {
+            padding: 0 20px;
+        }
+    }
+
+    //wonder CSS
+    .wondering-text {
+        margin-top: 30px;
+    }
+    
+
+    //accordian CSS 
+    .faq-section,.specifications-section {
+        .accordion-button {
+            font-size: 14px;
+            line-height: 1;
+        }
+    }
+
+    //waitlist 
+    .waitlist-section {
+        padding: 50px 0;
+    }
+
+    //footer CSS 
+    .footer-area {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .specifications-section h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    //Common CSS
+    h2 {
+        font-size: 35px;
+        line-height: 1.2;
+    }
+    p {
+        font-size: 16px;
+    }
+    
+    //Navbar CSS
+    .main-navbar {
+        .navbar {
+            width: 100%;
+
+            .navbar-nav {
+                margin-top: 15px;
+
+                .nav-item {
+                    .nav-link {
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+
+        .nav-btm {
+            position: fixed;
+            background: #fff;
+            bottom: 0;
+            z-index: 999999;
+            padding: 10px 0px;
+            width: 100%;
+            left: 0;
+            right: 0;
+
+            .theme-btn {
+                button {
+                    font-size: 15px !important;
+                    padding: 10px 15px !important;
+                }
+            }
+        }
+    }
+
+    //Hero CSS
+    .hero-section {
+        height: 100%;
+        padding: 100px 0;
+
+        .hero-text {
+            text-align: center;
+
+            h2 {
+                font-size: 35px;
+                line-height: 1.2;
+            }
+        }
+
+        .theme-btn {
+            display: none;
+        }
+
+        .hero-img {
+            padding-top: 0;
+        }
+    }
+
+    .headline-section {
+        .headline-text {
+            text-align: center;
+            padding: 30px 0;
+        }
+    }
+
+    //Ordinary CSS
+    .ordinary-section {
+        padding: 50px 20px;
+
+        .ordinary-text {
+
+            h2 {
+                margin-bottom: 20px !important;
+            }
+
+            text-align: center;
+        }
+    }
+
+    //Accordian CSS 
+    .ordinary-section {
+        .accordion-item {
+            padding-left: 10px;
+        }
+    }
+
+    //Conquire CSS
+    .conquer-text, .mold-text, .Incredible-text {
+        text-align: center;
+
+        h2 {
+        margin-bottom: 20px !important;
+        }
+    }
+
+    //Mold CSS
+    .mold-section {
+        padding: 50px 0;
+
+        .px-5 {
+            padding: 0 15px !important;
+        }
+    }
+
+    //Matter CSS 
+
+    .matters__inner-wrapper {
+        flex-direction: column;
+
+        .matters__nav-wrapper {
+            width: 100%;
+        }
+        
+        .matters__img-wrapper {
+            width: inherit;
+            max-width: 100%;
+
+            .matters__img-item-wrapper {
+                width: inherit;
+                max-width: 100%;
+
+                h3 {
+                    font-size: 25px;
+                    padding: 0 10px;
+                    line-height: 1;
+                }
+            }
+        }
+    }
+
+    //Function CSS
+    .function-section {
+        padding: 50px 0;
+    }
+
+    //Incredible CSS
+    .incredible-section {
+        .px-100 {
+            padding: 0 20px;
+        }
+    }
+
+    //wonder CSS
+    .wondering-text {
+        margin-top: 30px;
+    }
+    
+
+    //accordian CSS 
+    .faq-section,.specifications-section {
+        .accordion-button {
+            font-size: 14px;
+            line-height: 1;
+        }
+    }
+
+    //waitlist 
+    .waitlist-section {
+        padding: 50px 0;
+    }
+
+    //footer CSS 
+    .footer-area {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .specifications-section h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+}

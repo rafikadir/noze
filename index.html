@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="./assets/img/favicon.svg" type="image/x-icon">
+        <!-- Title -->
+        <title>NOZE</title>
+    </head>
+
+    <body>
+        <!-- Navbar Section Start -->
+        <div class="main-navbar">
+            <nav class="navbar navbar-expand-lg navbar-light">            
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./assets/img/logo.svg" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./specs.html">Specs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQs</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="nav-btm d-flex align-items-center">
+                <p>Order for $249</p>
+                <div class="theme-btn">
+                    <button>Pre Order</button>
+                </div>
+           </div>
+        </div>
+        <!-- Navbar Section End -->
+
+        <!-- Hero Section Start -->
+        <div class="hero-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="hero-text">
+                            <h2>There’s something new in the air</h2>
+                            <p>NOZE is an AI powered air quality monitor that works to keep you safe. Breathe easy.</p>
+
+                            <div class="theme-btn">
+                                <button data-bs-toggle="modal" data-bs-target="#exampleModal">Join the waitlist</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="hero-img text-center">
+                            <img src="./assets/img/NOZE-Hero-1.png" alt="hero">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero Section End -->
+
+        <!-- Headline Section Start -->
+        <div class="headline-section">
+            <div class="container">
+                <div class="headline-text">
+                    <h2>NOZE is making headlines.</h2>
+                </div>
+            </div>
+        </div>
+        <!-- Headline Section End -->
+
+        <!-- Ordinary Section Start -->
+        <section class="ordinary-section">
+            <div class="container">
+                <div class="ordinary-text mb-5">
+                    <h2 class="mb-5">Anything but ordinary.</h2>
+                    <p>Some would say it's out of this world. That’s not far off.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button onclick="displayVideo()" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    NASA INSPIRED
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    NOZE is powered by a single sensor built on years of NASA innovation. Our technology raises the bar to new heights
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button onclick="displayImg()" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    ENGINEERED TO THINK
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    NOZE uses artificial intelligence to decode the air around you in real-time, all the time. It actively samples the air every second and breaks things down into specifics so that you can act while it matters.
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">   
+                        <div id="ordinary-video">
+                            <video src="./assets/videos/m_about1.mp4"></video>
+                        </div>
+                        <div id="ordinary-img">
+                            <img src="./assets/img/about2.gif">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Ordinary Section End -->
+
+        <!-- Conquer Section Start -->
+        <section class="conquer-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="conqure-video mb-3">
+                            <video src="./assets/videos/NOZEabout1.mp4" autoplay loop muted>
+                            </video>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="conquer-text">
+                            <h2 class="mb-5">Сonquer the Virus</h2>
+                            <p>Noze tracks the airborne markers (VOCs) associated with the Coronavirus family. Our AI uses that information to deliver a real-time risk index that will not only tell you if your space is prone to spreading the virus, but whether there’s a chance the virus is actually in the air.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Conquer Section End -->
+
+        <!-- Mold Section Start -->
+        <section class="mold-section">
+            <div class="container-fluid px-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="mold-text mb-3">
+                            <h2 class="mb-5">Break the Mold</h2>
+                            <p>NOZE monitors the air for spores and other markers associated with the most common types of indoor mold. Our mold index will tell you if it's likely that there’s mold around and whether your space is in danger of being a breeding ground.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <video src="./assets/videos/NOZEabout2.mp4" autoplay loop muted></video>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Mold Section End -->
+
+        <!-- Matters Section Start -->
+        <div class="section__matters-title">
+            <div class="matters__title-wrapper">
+                <h2 class="_anim-items">What you can't see matters.</h2>
+                <p class="_anim-items">NOZE also monitors a range of other pollutants to help make indoor spaces safer places to live, work, and visit.</p>
+            </div>
+            </div>
+            <div class="section__matters">
+            <div class="matters__main-wrapper">
+                <div class="matters__inner-wrapper">
+                    <ul class="matters__nav-wrapper">
+                        <li class="active" onclick="mattersLinks(0)">Carbon Dioxide</li>
+                        <li onclick="mattersLinks(1)">Ammonia</li>
+                        <li onclick="mattersLinks(2)">Formaldehyde</li>
+                        
+                        <li onclick="mattersLinks(3)">Nitrogen Dioxide</li>
+                        <li onclick="mattersLinks(4)">Butanal</li>
+                        <li onclick="mattersLinks(5)">Particulate Matter</li>
+                        <li onclick="mattersLinks(6)">Ethanol</li>
+                        <li onclick="mattersLinks(7)">Tobacco Odour</li>
+                        <li onclick="mattersLinks(8)">Humidity</li>
+                    </ul>
+                    <div class="matters__img-wrapper">
+                        <div id="matter_item1" class="matters__img-item-wrapper">
+                        <h3>Clouds our thinking, lowers productivity & affects our sleep.</h3>
+                        <p>Exhaled breath from people & pets and open flames are the most common sources.</p>
+                        </div>
+                        <div id="matter_item2" class="matters__img-item-wrapper">
+                        <h3>Irritates our noses and throats, amplifies allergies & triggers asthma.</h3>
+                        <p>Cleaning products are the most common sources.</p>
+                        </div>
+                    
+                        <div id="matter_item3" class="matters__img-item-wrapper">
+                        <h3>Irritates the eyes, nose, throat & skin - and is often linked to cancer.</h3>
+                        <p>Pressed wood products like easy-to-assemble furniture are the most common sources.</p>
+                        </div>
+                        <div id="matter_item4" class="matters__img-item-wrapper">
+                        <h3>Causes permanent damage to our respiratory system.</h3>
+                        <p>Wood fireplaces & fuel powered appliances are the most common sources.</p>
+                        </div>
+                        <div id="matter_item5" class="matters__img-item-wrapper">
+                        <h3>Irritates our lungs causing coughing and shortness of breath.</h3>
+                        <p>Garbage, scented candles & cigarette smoke are the most common sources.</p>
+                        </div>
+                        <div id="matter_item6" class="matters__img-item-wrapper">
+                        <h3>Irritates our lungs, aggravates allergies & can increase virus spread.</h3>
+                        <p>Cooking, cleaning & particles coming from the outdoors are the most common sources.</p>
+                        </div>
+                        <div id="matter_item7" class="matters__img-item-wrapper">
+                        <h3>Causes headaches, nausea & irritates our lungs.</h3>
+                        <p>Cleaning detergents & hand sanitizers are the most common sources.</p>
+                        </div>
+                        <div id="matter_item8" class="matters__img-item-wrapper">
+                        <h3>Seeps into furniture and can linger in a space for a long time.</h3>
+                        <p>If smoking is not allowed in your space, keep an eye behind closed doors.</p>
+                        </div>
+                        <div id="matter_item9" class="matters__img-item-wrapper">
+                        <h3>Causes mold growth that triggers asthma & irritates our ears, nose and throat.</h3>
+                        <p>If humidity is too low, viruses can more easily survive and be transmitted.</p>
+                        </div>
+                    </div>
+                    <div class="matters__switchers-wrapper">
+                        <span>Carbon Dioxide</span>
+                        <a href="#" id="matters__switcher-1" class="matters__switcher active"></a>
+                        <a href="#" id="matters__switcher-2" class="matters__switcher"></a>
+                        
+                        <a href="#" id="matters__switcher-3" class="matters__switcher"></a>
+                        <a href="#" id="matters__switcher-4" class="matters__switcher"></a>
+                        <a href="#" id="matters__switcher-5" class="matters__switcher"></a>
+                        <a href="#" id="matters__switcher-6" class="matters__switcher"></a>
+                        <a href="#" id="matters__switcher-7" class="matters__switcher"></a>
+                        <a href="#" id="matters__switcher-8" class="matters__switcher"></a>
+                        <a href="#" id="matters__switcher-9" class="matters__switcher"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Matters Section End -->
+
+        <!-- Function Section Start -->
+        <section class="function-section">
+            <div class="container">
+                <div class="funciton-title">
+                    <h2>What's more important, form or function?</h2>
+                    <p>We didn’t think it was fair to have to choose.</p>
+                </div>
+                <div class="funciton-video">
+                    <video src="./assets/videos/WALP.mp4" autoplay loop muted></video>
+                </div>
+            </div>
+        </section>
+        <!-- Function Section End -->
+
+        <!-- Incredible Section Start -->
+        <section class="incredible-section">
+            <div class="container-fluid px-100">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 offset-lg-1">
+                        <div class="Incredible-text">
+                            <h2>Incredible power, right under your NOZE</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="incredible-box">
+                                    <div class="incredible-img">
+                                        <img src="./assets/img/6.png" alt="product">
+                                    </div>
+
+                                    <div class="incredible-text">
+                                        <h4>Check in.</h4>
+                                        <p>Keep an eye on things in real-time so you can have peace of mind all the time.</p> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 offset-lg-5">
+                                <div class="incredible-box">
+                                    <div class="incredible-img">
+                                        <img src="./assets/img/8.png" alt="product">
+                                    </div>
+
+                                    <div class="incredible-text">
+                                        <h4>Track it.</h4>
+                                        <p>Dive into the details to understand exactly what’s going on so you can take action in the moment.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="incredible-box">
+                                    <div class="incredible-img">
+                                        <img src="./assets/img/9.png" alt="product">
+                                    </div>
+
+                                    <div class="incredible-text">
+                                        <h4>Share it.</h4>
+                                        <p>Let others see what’s in the air before they come inside by sharing access to your Noze.</p> 
+
+                                        <div class="incredible-btm flex justify-content-center">
+                                            <p class="mb-0"><small>Are you a business?</small>
+                                                <img class="incredible-icon" src="./assets/img/info.svg" alt="info"  
+                                                    data-bs-toggle="tooltip" data-bs-placement="top"
+                                                    data-bs-custom-class="custom-tooltip"
+                                                    data-bs-title="This top tooltip is themed via CSS variables.">
+                                            </p>
+                                            <span class="popup">You can stream your NOZE dashboard to a screen on-site, let people scan a QR code right off your door or even include it in your Google listing.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Incredible Section End -->
+
+        <!-- Wondering Section Start -->
+        <section class="wondering-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7">
+                        <div class="wondering-img">
+                            <img src="./assets/img/06-1-copy.png" alt="wondering">
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="wondering-text">
+                            <h2>Wondering if you should get a NOZE?</h2>
+                            <p>Any way you slice it, it’s a no brainer.</p>
+
+                            <ul>
+                                <li>Reduce Virus spread</li>
+                                <li>Watch out for Mold</li>
+                                <li>Keep Asthma in check</li>
+                                <li>Avoid Allergy flare ups</li>
+                                <li>Improve your Sleep</li>
+                                <li>Boost Productivity & Focus</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Wondering Section End -->
+
+        <!-- FAQs Section Start -->
+        <section id="faq" class="faq-section">
+            <div class="container">
+                <div class="section-title text-center mb-5">
+                    <h2>FAQs</h2>
+                </div>
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnee" aria-expanded="true" aria-controls="collapseOnee">
+                                How is NOZE different from other air quality monitors?
+                            </button>
+                        </h2>
+                        <div id="collapseOnee" class="accordion-collapse collapse show" aria-labelledby="headingOnee" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The technology behind NOZE is based on a digital nose sensor (also known as an e-nose). With this sensor, NOZE can precisely detect a wide range of pollutants and chemicals. In contrast, almost all other air quality monitors on the market today use a bundle of off-the-shelf sensors that are limited in what they can detect and can vary widely in quality, accuracy and reliability.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwoo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoo" aria-expanded="false" aria-controls="collapseTwoo">
+                                What is a digital nose?
+                            </button>
+                        </h2>
+                        <div id="collapseTwoo" class="accordion-collapse collapse" aria-labelledby="headingTwoo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                A digital nose is a breakthrough technology that digitizes the sense of smell. It’s similar to how the camera digitized the sense of sight and the microphone digitized the sense of hearing.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What is the Virus Risk Index?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The Virus Risk Index is an AI-powered tool built into NOZE to help make indoor spaces safer places to live, work, and visit by monitoring the risk of virus transmission (tracking how conducive the air is to spreading the virus) and the risk of virus presence (tracking the likelihood that the virus is in the air).
+
+                                Note: The Virus Risk Index is not intended to be an alternative to precautionary measures or laboratory testing.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                How does the Virus Risk Index work?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The Virus Risk Index is a 10 point scale where values between 1 and 8 indicate an increasing risk of virus transmission, while values of 9 and 10 indicate a likelihood that the virus pathogen is present. To calculate this score, our AI analyzes five things: Airborne Volatiles related to the Coronavirus and Influenza, Particulate Matter, Temperature, Humidity and Carbon Dioxide.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                What space can it cover?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                The molecules in every gas and odour have different properties which impact how far they can travel and how fast they can be detected. A good rule of thumb for a typical indoor space is that NOZE can cover an area of up to 800 square feet (80 square meters) without barriers like walls or doors.                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                How many NOZE devices do I need?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                            If you want to monitor different rooms at the same time, we suggest that you place one NOZE in each room, depending on the layout. If you only have one NOZE then you should monitor the room where you spend most of your time or are the most concerned about.                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                What is the Warranty on NOZE?
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                NOZE comes with a one-year limited warranty.                       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQs Section End -->
+
+        <!-- Waitlist Section Start -->
+        <section class="waitlist-section text-center">
+            <div class="container">
+                <h2 class="mb-2">Stay connected with NOZE</h2>
+                <p class="mb-5"">NOZE is an AI powered air quality monitor that <br> works to keep you safe. Breathe easy.</p>
+
+                <div class="theme-btn">
+                    <button data-bs-toggle="modal" data-bs-target="#exampleModal">Join the waitlist</button>
+                </div>
+            </div>
+        </section>
+        <!-- Waitlist Section End -->
+
+        <!-- Footer Section Start -->
+        <footer class="footer-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footer-social">
+                           <a href="#">
+                                <img src="./assets/img/fb.svg" alt="">
+                           </a>
+                           <a href="#">
+                                <img src="./assets/img/twitter.svg" alt="">
+                           </a>
+                           <a href="#">
+                                <img src="./assets/img/ig.svg" alt="">
+                           </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="copytext text-center">
+                            <p class="mb-0 fs-6">2021 NOZE</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-link">
+                            <a href="./privacy.html">Privacy Policy</a>
+                            <a href="./terms.html">Terms of Use</a>
+                            <a href="#">Contact</a>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Section End -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h5 class="modal-title" id="exampleModalLabel">Be the first to know</h5>
+                        <p class="modal-desc">Leave us your details and we'll keep you up to date about NOZE.</p>
+
+                        <form>
+                            <div class="mb-2">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Name">
+                            </div>
+                            <div class="mb-2">
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                            </div>
+                            <select class="form-select mb-2" aria-label="Default select example">
+                                <option selected>Select Country</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                            <button type="submit" class="btn btn-primary">Sign up me</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Custom JS -->
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
